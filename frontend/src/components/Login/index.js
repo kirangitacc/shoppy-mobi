@@ -23,7 +23,7 @@ class Login extends Component {
     const { username, password } = this.state;
     const userData = { username, password };
 
-    const url = 'http://localhost:3000/login/'; // Backend login endpoint
+    const url = 'https://shoppy-mobi.onrender.com/login/'; // Backend login endpoint
 
     const options = {
       method: 'POST',
