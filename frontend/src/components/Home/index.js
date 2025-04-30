@@ -3,7 +3,7 @@ import Header from '../Header';
 import './index.css';
 
 const Home = () => (
-  <div className="home-container">
+  <>
     <Header />
 
     <div className="home-content-container">
@@ -35,11 +35,8 @@ const Home = () => (
           className="home-desktop-img"
         />
       </div>
-
-      {/* Second Container: content-con2 */}
-      <div className="content-con2"></div>
     </div>
-  </div>
+  </>
 );
 
 export default Home;

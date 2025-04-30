@@ -15,6 +15,8 @@
     flex-direction: column;
     width: 90%;
     max-width: 1110px;
+    height:90vh;
+    overflow-y: auto;
   }
   
   @media screen and (min-width: 768px) {
@@ -31,6 +33,8 @@
       font-size: 20px;
       align-self: flex-end;
       font-weight: bold;
+      margin-bottom:80px;
+      margin-right:20px;
     }
   }
   
@@ -39,6 +43,8 @@
     font-family: 'Roboto';
     font-size: 24px;
     font-weight: 700;
+    margin-bottom:0px;
+    margin-top:40px;
   }
   
   @media screen and (min-width: 768px) {

@@ -9,8 +9,9 @@
 .home-content-container {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   padding: 20px;
+  align-items: center;
 }
 
 .content-con1 {
@@ -19,6 +20,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  width:80%;
 }
 
 @media screen and (min-width: 768px) {

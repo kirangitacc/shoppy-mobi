@@ -16,17 +16,19 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  min-height: 100vh;
+  height: 90vh;
   padding: 20px;
   background-color: #f4f4f4;
+  overflow-y: auto;
+
 }
 
 .filters-container {
   display: flex;
   flex-direction: column;
-  height:30%;
+  height:100%;
   width: 25%;
-  padding: 30px;
+  padding: 20px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -39,6 +41,7 @@ body {
   flex-direction: column;
   width: 100%;
   padding: 20px;
+  overflow-y: auto;
 }
 
 /*.products-bg-container{
