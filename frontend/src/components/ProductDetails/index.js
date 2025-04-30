@@ -50,7 +50,7 @@ class ProductDetails extends Component {
       apiStatus: apiStatusConstants.inProgress,
     })
     const jwtToken = localStorage.getItem('jwt_token')
-    const apiUrl = `http://localhost:3000/product/${id}`
+    const apiUrl = `https://shoppy-mobi.onrender.com/product/${id}`
     const options = {
       headers: {
         Authorization: `Bearer ${jwtToken}`,
