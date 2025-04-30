@@ -6,7 +6,7 @@ const Header = props => {
   const onClickLogout = async (orders, cartList) => {
     const { history } = props;
 
-    const url = 'http://localhost:3000/storeUserData'; // Backend API endpoint
+    const url = 'https://shoppy-mobi.onrender.com/storeUserData'; // Backend API endpoint
     const requestData = {
       orders,
       cartList,
