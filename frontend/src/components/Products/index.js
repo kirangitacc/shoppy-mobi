@@ -39,7 +39,7 @@ class Products extends Component {
   }
 
   getProductsData = async () => {
-    const url = 'http://localhost:3000/products'; // Backend endpoint for products
+    const url = 'https://shoppy-mobi.onrender.com/products'; // Backend endpoint for products
     const jwtToken = localStorage.getItem('jwt_token'); // Retrieve JWT token from localStorage
     const options = {
       headers: {
